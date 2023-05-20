@@ -1,0 +1,112 @@
+@import './base.css';
+
+body {
+  background: var(--background-primary);
+  margin: 0px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.headerContent {
+  width: 100%;
+  max-width: 1024px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+.wordmark {
+  display: flex;
+  align-items: center;
+  
+  flex-grow: 0;
+}
+
+.smallLogo {
+  display: flex;
+  align-items: center;
+}
+
+.smallLogoImage {
+  height: 35px;
+  width: 35px;
+}
+
+.serverName {
+  color: var(--text-primary);
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-variation-settings: "wght" 700;
+
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.headerLinksArea {
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-grow: 5;
+}
+
+.headerLink {
+  margin-left: 5px;
+  margin-right: 5px;
+
+  color: var(--text-primary);
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 17px;
+
+  text-decoration: none;
+}
+
+.smallAvatar {
+  display: flex;
+  align-items: center;
+}
+
+.smallAvatarImage {
+  height: 35px;
+  width: 35px;
+}
+
+.statusArea {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.status {
+  color: var(--text-primary);
+  font-family: var(--font);
+  font-size: 17px;
+}
+
+@media (max-width: 600px) {
+  .statusArea {
+    display: none;
+  }
+}
+
+@media (max-width: 415px) {
+  .statusArea {
+    display: none;
+  }
+  .headerContent {
+    flex-direction: column;
+  }
+  .wordmark {
+    margin-bottom: 15px;
+  }
+}
+
+.pageContent {
+  max-width: 1024px;
+}
