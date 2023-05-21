@@ -1,8 +1,4 @@
-@font-face {
-  font-family: "Commissioner";
-  src: url('./Commissioner/Commissioner-VariableFont.ttf');
-}
-
+/* Theming */
 :root {
   color-scheme: dark;
 
@@ -29,6 +25,89 @@
 
   --accent-primary: #da70d6;
 
-  --font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  --font-display: "Commissioner", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --font: "Source Sans Pro", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --font-display: "Commissioner", "Source Sans Pro", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@font-face {
+  font-family: "Commissioner";
+  src: url('./Commissioner/Commissioner-VariableFont.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 900;
+  src: url('./SourceSansPro/SourceSansPro-Black.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 900;
+  font-style: italic;
+  src: url('./SourceSansPro/SourceSansPro-BlackItalic.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  src: url('./SourceSansPro/SourceSansPro-Bold.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-style: italic;
+  src: url('./SourceSansPro/SourceSansPro-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  src: url('./SourceSansPro/SourceSansPro-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-style: italic;
+  src: url('./SourceSansPro/SourceSansPro-SemiBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  src: url('./SourceSansPro/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-style: italic;
+  src: url('./SourceSansPro/SourceSansPro-Italic.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 300;
+  src: url('./SourceSansPro/SourceSansPro-Light.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 300;
+  font-style: italic;
+  src: url('./SourceSansPro/SourceSansPro-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 200;
+  src: url('./SourceSansPro/SourceSansPro-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 200;
+  font-style: italic;
+  src: url('./SourceSansPro/SourceSansPro-ExtraLightItalic.ttf');
 }
