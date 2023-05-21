@@ -1,3 +1,3 @@
-yarn add vite
 yarn install
-npm run dev
+yarn add vite
+yarn run dev
