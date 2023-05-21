@@ -17,5 +17,8 @@ export default defineConfig({
   server: {
     port: 8000,
     hmr: {protocol: "wss", host: "orchidmc.me", port: 8000}
-  }
+  },
+  preview: {
+    port: 8000,
+  },
 })
