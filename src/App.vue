@@ -43,10 +43,10 @@ import Supporter from './components/Supporter.vue'
           <VotingSite icon="go" link="https://topminecraftservers.org/vote/29126">topminecraftservers</VotingSite>
           <VotingSite icon="go" link="https://www.serverpact.com/vote-47152">serverpact</VotingSite>
           <VotingSite icon="go" link="https://minecraftservers.org/vote/640046">minecraftservers.org</VotingSite>
-          <VotingSite icon="go" link="https://craftlist.org/orchid#vote">craftlist</VotingSite>
-          <VotingSite icon="go" link="https://minecraft-mp.com/server/308552/vote/">minecraft-mp</VotingSite>
+          <VotingSite icon="go" link="https://craftlist.org/orchid#vote">craftlist.org</VotingSite>
+          <VotingSite icon="go" link="https://minecraft-mp.com/server/308552/vote/">minecraft-mp.com</VotingSite>
           <VotingSite icon="go" link="https://www.planetminecraft.com/server/orchid-towny/vote/">planetminecraft</VotingSite>
-          <VotingSite icon="go" link="https://minecraft-mp.com/server/308552/vote/">mclist</VotingSite>
+          <VotingSite icon="go" link="https://minecraft-mp.com/server/308552/vote/">mclist.io</VotingSite>
         </div>
       </div>
       <div id="supporters" class="pageItemContainer">
