@@ -22,7 +22,8 @@ export default {
 <template>
     <div class="supporterContainer">
         <div class="supporterContent">
-            <img class="supporterImage" :title="name" :src="url">
+            <img class="supporterImage" :src="url">
+            <span class="supporterName">{{ name }}</span>
         </div>
     </div>
 </template>
