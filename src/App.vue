@@ -40,8 +40,8 @@ import Supporter from './components/Supporter.vue'
         <Heading>Vote for Orchid</Heading>
         <div class="pageItemContent">
           <VotingSite icon="go" link="https://minecraft.buzz/vote/5661">minecraft.buzz</VotingSite>
-          <VotingSite icon="go" link="https://topminecraftservers.org/vote/29126">topminecraftservers</VotingSite>
-          <VotingSite icon="go" link="https://www.serverpact.com/vote-47152">serverpact</VotingSite>
+          <VotingSite icon="go" link="https://topminecraftservers.org/vote/29126">topminecraftservers.org</VotingSite>
+          <VotingSite icon="go" link="https://www.serverpact.com/vote-47152">serverpact.com</VotingSite>
           <VotingSite icon="go" link="https://minecraftservers.org/vote/640046">minecraftservers.org</VotingSite>
           <VotingSite icon="go" link="https://craftlist.org/orchid#vote">craftlist.org</VotingSite>
           <VotingSite icon="go" link="https://minecraft-mp.com/server/308552/vote/">minecraft-mp.com</VotingSite>
@@ -52,35 +52,35 @@ import Supporter from './components/Supporter.vue'
       <div id="supporters" class="pageItemContainer">
         <Heading>Our Supporters</Heading>
         <div class="pageItemContent pageItemContentSupporters">
-          <Supporter url="https://mc-heads.net/avatar/xxLightning13x" />
-          <Supporter url="https://mc-heads.net/avatar/Darksyde666" />
-          <Supporter url="https://mc-heads.net/avatar/Jota_byte" />
-          <Supporter url="https://mc-heads.net/avatar/umvoon" />
-          <Supporter url="https://mc-heads.net/avatar/Basicbee_" />
-          <Supporter url="https://mc-heads.net/avatar/Vrixll" />
-          <Supporter url="https://mc-heads.net/avatar/TheGreatDayton" />
-          <Supporter url="https://mc-heads.net/avatar/TheGreatFlyBoy" />
-          <Supporter url="https://mc-heads.net/avatar/Starry_Chu" />
-          <Supporter url="https://mc-heads.net/avatar/Goooop00" />
-          <Supporter url="https://mc-heads.net/avatar/UnfadingAut0" />
-          <Supporter url="https://mc-heads.net/avatar/Bella_York" />
-          <Supporter url="https://mc-heads.net/avatar/BlahBlah375" />
-          <Supporter url="https://mc-heads.net/avatar/_Glu10_" />
-          <Supporter url="https://mc-heads.net/avatar/RavenBeauty0518" />
-          <Supporter url="https://mc-heads.net/avatar/cozychills" />
-          <Supporter url="https://mc-heads.net/avatar/Woots_" />
-          <Supporter url="https://mc-heads.net/avatar/LemonHound" />
-          <Supporter url="https://mc-heads.net/avatar/Legalis" />
-          <Supporter url="https://mc-heads.net/avatar/A1eq" />
-          <Supporter url="https://mc-heads.net/avatar/Ryash" />
-          <Supporter url="https://mc-heads.net/avatar/Zinguin" />
-          <Supporter url="https://mc-heads.net/avatar/Uby_" />
-          <Supporter url="https://mc-heads.net/avatar/charwaterlily" />
-          <Supporter url="https://mc-heads.net/avatar/TechnicalNitwit" />
-          <Supporter url="https://mc-heads.net/avatar/Breetherusski__" />
-          <Supporter url="https://mc-heads.net/avatar/Shxwk" />
-          <Supporter url="https://mc-heads.net/avatar/Ostarathesheep" />
-          <Supporter url="https://mc-heads.net/avatar/Matrixes420" />
+          <Supporter name="xxLightning13x" />
+          <Supporter name="Darksyde666" />
+          <Supporter name="Jota_byte" />
+          <Supporter name="umvoon" />
+          <Supporter name="Vrixll" />
+          <Supporter name="TheGreatDayton" />
+          <Supporter name="Basicbee_" />
+          <Supporter name="TheGreatFlyBoy" />
+          <Supporter name="Starry_Chu" />
+          <Supporter name="Goooop00" />
+          <Supporter name="UnfadingAut0" />
+          <Supporter name="Bella_York" />
+          <Supporter name="BlahBlah375" />
+          <Supporter name="_Glu10_" />
+          <Supporter name="RavenBeauty0518" />
+          <Supporter name="cozychills" />
+          <Supporter name="Woots_" />
+          <Supporter name="LemonHound" />
+          <Supporter name="Legalis" />
+          <Supporter name="A1eq" />
+          <Supporter name="Ryash" />
+          <Supporter name="Zinguin" />
+          <Supporter name="Uby_" />
+          <Supporter name="charwaterlily" />
+          <Supporter name="TechnicalNitwit" />
+          <Supporter name="Breetherusski__" />
+          <Supporter name="Shxwk" />
+          <Supporter name="Ostarathesheep" />
+          <Supporter name="Matrixes420" />
         </div>
       </div>
     </div>

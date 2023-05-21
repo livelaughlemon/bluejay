@@ -1,15 +1,28 @@
 <script>
 export default {
     props: {
-        url: String,
+        name: String,
+    },
+    data: () => ({
+        url: "https://mc-heads.net/avatar/",
+    }),
+
+    created() {
+        this.getHead()
+    },
+
+  methods: {
+    async getHead() {
+        this.url = "https://mc-heads.net/avatar/"+this.name
     }
+  }
 }
 </script>
 
 <template>
     <div class="supporterContainer">
         <div class="supporterContent">
-            <img class="supporterImage" :src="url">
+            <img class="supporterImage" :title="name" :src="url">
         </div>
     </div>
 </template>

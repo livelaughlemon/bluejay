@@ -5,7 +5,7 @@
 
 :root {
   color-scheme: dark;
-  
+
   --background-primary: #242329;
   --background-secondary: #1b1a1f;
   --background-secondary-alt: #151418;
@@ -15,8 +15,14 @@
   --background-primary-80: #24232980;
   --background-secondary-80: #1b1a1f80;
   --background-secondary-alt-80: #15141880;
-  --background-tertiary-80: #0c0b0e08;
+  --background-tertiary-80: #0c0b0e80;
   --background-accent-80: #36343f80;
+
+  --background-primary-50: #24232950;
+  --background-secondary-50: #1b1a1f50;
+  --background-secondary-alt-50: #15141850;
+  --background-tertiary-50: #0c0b0e50;
+  --background-accent-50: #36343f50;
 
   --text-primary: #ffffff;
   --text-muted: #e5e3ee;
