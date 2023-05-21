@@ -1,10 +1,12 @@
 <script setup>
 import PageHeader from './components/PageHeader.vue'
+import PageFooter from './components/PageFooter.vue'
 import CopyIPButton from './components/CopyIPButton.vue'
 import Button from './components/Button.vue'
 import Heading from './components/Heading.vue'
 import Card from './components/Card.vue'
 import VotingSite from './components/VotingSite.vue'
+import Supporter from './components/Supporter.vue'
 </script>
 
 <template>
@@ -24,7 +26,7 @@ import VotingSite from './components/VotingSite.vue'
         </div>
       </div>
     </div>
-    <div class="pageContent">
+    <div id="features" class="pageContent">
       <div class="pageItemContainer">
         <Heading>Some of our Features</Heading>
         <div class="pageItemContent">
@@ -47,6 +49,41 @@ import VotingSite from './components/VotingSite.vue'
           <VotingSite icon="go" link="https://minecraft-mp.com/server/308552/vote/">mclist.io</VotingSite>
         </div>
       </div>
+      <div id="supporters" class="pageItemContainer">
+        <Heading>Our Supporters</Heading>
+        <div class="pageItemContent pageItemContentSupporters">
+          <Supporter url="https://mc-heads.net/avatar/xxLightning13x" />
+          <Supporter url="https://mc-heads.net/avatar/Darksyde666" />
+          <Supporter url="https://mc-heads.net/avatar/Jota_byte" />
+          <Supporter url="https://mc-heads.net/avatar/umvoon" />
+          <Supporter url="https://mc-heads.net/avatar/Basicbee_" />
+          <Supporter url="https://mc-heads.net/avatar/Vrixll" />
+          <Supporter url="https://mc-heads.net/avatar/TheGreatDayton" />
+          <Supporter url="https://mc-heads.net/avatar/TheGreatFlyBoy" />
+          <Supporter url="https://mc-heads.net/avatar/Starry_Chu" />
+          <Supporter url="https://mc-heads.net/avatar/Goooop00" />
+          <Supporter url="https://mc-heads.net/avatar/UnfadingAut0" />
+          <Supporter url="https://mc-heads.net/avatar/Bella_York" />
+          <Supporter url="https://mc-heads.net/avatar/BlahBlah375" />
+          <Supporter url="https://mc-heads.net/avatar/_Glu10_" />
+          <Supporter url="https://mc-heads.net/avatar/RavenBeauty0518" />
+          <Supporter url="https://mc-heads.net/avatar/cozychills" />
+          <Supporter url="https://mc-heads.net/avatar/Woots_" />
+          <Supporter url="https://mc-heads.net/avatar/LemonHound" />
+          <Supporter url="https://mc-heads.net/avatar/Legalis" />
+          <Supporter url="https://mc-heads.net/avatar/A1eq" />
+          <Supporter url="https://mc-heads.net/avatar/Ryash" />
+          <Supporter url="https://mc-heads.net/avatar/Zinguin" />
+          <Supporter url="https://mc-heads.net/avatar/Uby_" />
+          <Supporter url="https://mc-heads.net/avatar/charwaterlily" />
+          <Supporter url="https://mc-heads.net/avatar/TechnicalNitwit" />
+          <Supporter url="https://mc-heads.net/avatar/Breetherusski__" />
+          <Supporter url="https://mc-heads.net/avatar/Shxwk" />
+          <Supporter url="https://mc-heads.net/avatar/Ostarathesheep" />
+          <Supporter url="https://mc-heads.net/avatar/Matrixes420" />
+        </div>
+      </div>
     </div>
+    <PageFooter />
   </div>
 </template>
