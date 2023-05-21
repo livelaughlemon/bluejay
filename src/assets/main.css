@@ -31,7 +31,7 @@ body {
   color: var(--text-primary);
   font-family: var(--font);
   color: var(--text-primary);
-  font-size: 17px;
+  font-size: 16px;
   font-variation-settings: "wght" 500;
 
   text-align: center;
@@ -102,7 +102,7 @@ body {
   color: var(--text-primary);
   font-family: var(--font);
   font-weight: 400;
-  font-size: 17px;
+  font-size: 16px;
 
   text-decoration: none;
 }
@@ -126,7 +126,7 @@ body {
 .status {
   color: var(--text-primary);
   font-family: var(--font);
-  font-size: 17px;
+  font-size: 16px;
 }
 
 @media (max-width: 600px) {
@@ -168,7 +168,7 @@ body {
   color: var(--text-primary);
   font-family: var(--font);
   font-weight: 400;
-  font-size: 17px;
+  font-size: 16px;
   padding: 60px;
   max-width: 500px;
 }
@@ -197,7 +197,7 @@ body {
   color: var(--text-primary);
   font-family: var(--font);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
 
   line-height: 2.50;
   cursor: pointer;
@@ -262,7 +262,7 @@ hr {
   color: var(--text-muted);
   font-family: var(--font);
   font-weight: 400;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .sf {
@@ -372,7 +372,7 @@ h1 {
   color: var(--text-muted);
   font-family: var(--font);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .pageItemContentSupporters {
