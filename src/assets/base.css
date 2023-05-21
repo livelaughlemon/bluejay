@@ -10,8 +10,14 @@
   --background-tertiary: #0c0b0e;
   --background-accent: #36343f;
 
+  --background-primary-80: #24232980;
+  --background-secondary-80: #1b1a1f80;
+  --background-secondary-alt-80: #15141880;
+  --background-tertiary-80: #0c0b0e08;
+  --background-accent-80: #36343f80;
+
   --text-primary: #ffffff;
-  --text-muted: #d5d1e7;
+  --text-muted: #e5e3ee;
 
   --accent-primary: #da70d6;
 
