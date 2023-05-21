@@ -1,7 +1,7 @@
 
 {
   "name": "bluejay",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "vite --host 0.0.0.0",
@@ -9,9 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "npm": "^9.6.7",
-    "vue": "^3.3.2",
-    "vue-cookies": "^1.8.3"
+    "vue": "^3.3.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
