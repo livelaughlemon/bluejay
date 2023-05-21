@@ -11,6 +11,7 @@ body {
   justify-content: center;
 
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 
   position: fixed;
   top: 0;
@@ -190,7 +191,7 @@ body {
   margin-right: 7px;
 
   border: none;
-  border-radius: 10px;
+  border-radius: 10px!important;
 
   color: var(--text-primary);
   font-family: var(--font);
@@ -199,6 +200,14 @@ body {
 
   line-height: 2.50;
   cursor: pointer;
+}
+
+a:focus-within, .btn:focus-within {
+  outline-color: var(--accent-primary);
+  outline-offset: 2px;
+  outline-width: 3px;
+  outline-style: solid;
+  border-radius: 5px;
 }
 
 .pageContent {

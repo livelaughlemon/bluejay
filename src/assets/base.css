@@ -4,6 +4,8 @@
 }
 
 :root {
+  color-scheme: dark;
+  
   --background-primary: #242329;
   --background-secondary: #1b1a1f;
   --background-secondary-alt: #151418;
