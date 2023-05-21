@@ -1,3 +1,3 @@
-yarn install
-yarn add vite
-yarn run dev
+npm install
+npm i vite --save
+npm run dev
