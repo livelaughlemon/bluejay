@@ -50,7 +50,7 @@ import Supporter from './components/Supporter.vue'
         </div>
       </div>
       <div id="supporters" class="pageItemContainer">
-        <Heading>Meet Our Supporters</Heading>
+        <Heading>Our Supporters</Heading>
         <div class="pageItemContent pageItemContentSupporters">
           <Supporter name="xxLightning13x" />
           <Supporter name="Darksyde666" />

@@ -11,11 +11,11 @@ export default {
         this.getHead()
     },
 
-  methods: {
-    async getHead() {
-        this.url = "https://mc-heads.net/avatar/"+this.name
+    methods: {
+        async getHead() {
+            this.url = "https://mc-heads.net/avatar/" + this.name
+        }
     }
-  }
 }
 </script>
 

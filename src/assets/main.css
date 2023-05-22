@@ -65,7 +65,7 @@ body {
 .wordmark {
   display: flex;
   align-items: center;
-  
+
   flex-grow: 0;
 }
 
@@ -139,9 +139,11 @@ body {
   .statusArea {
     display: none;
   }
+
   .headerContent {
     flex-direction: column;
   }
+
   .wordmark {
     margin-bottom: 15px;
   }
@@ -155,7 +157,7 @@ body {
   padding-top: 75px;
   padding-bottom: 25px;
   background-image: url("https://assets.orchidmc.me/images/orchidmcme/header2.png");
-  background-position:bottom;
+  background-position: bottom;
 }
 
 .pageHeaderContent {
@@ -192,7 +194,7 @@ body {
   margin-right: 7px;
 
   border: solid 2px var(--background-accent);
-  border-radius: 10px!important;
+  border-radius: 10px !important;
 
   color: var(--text-primary);
   font-family: var(--font);
@@ -203,7 +205,8 @@ body {
   cursor: pointer;
 }
 
-a:focus-within, .btn:focus-within {
+a:focus-within,
+.btn:focus-within {
   outline-color: var(--accent-primary);
   outline-offset: 2px;
   outline-width: 3px;
@@ -332,7 +335,7 @@ p {
 }
 
 .noMargin {
-  margin: 0px!important;
+  margin: 0px !important;
 }
 
 .votingLink {
@@ -382,5 +385,5 @@ h1 {
 
 .ossLink {
   color: var(--accent-primary);
-  text-decoration: underline!important;
+  text-decoration: underline !important;
 }
