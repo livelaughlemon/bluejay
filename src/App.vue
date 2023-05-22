@@ -66,7 +66,6 @@ import Supporter from './components/Supporter.vue'
           <Supporter name="Bella_York" />
           <Supporter name="BlahBlah375" />
           <Supporter name="_Glu10_" />
-          <Supporter name="RavenBeauty0518" />
           <Supporter name="cozychills" />
           <Supporter name="Woots_" />
           <Supporter name="LemonHound" />
@@ -79,7 +78,6 @@ import Supporter from './components/Supporter.vue'
           <Supporter name="TechnicalNitwit" />
           <Supporter name="Breetherusski__" />
           <Supporter name="Shxwk" />
-          <Supporter name="Ostarathesheep" />
           <Supporter name="Matrixes420" />
         </div>
       </div>
