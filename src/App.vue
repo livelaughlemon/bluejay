@@ -20,7 +20,7 @@ import Supporter from './components/Supporter.vue'
               Welcome to Orchid! We’re a community built on the hope to make Minecraft a more accepting and comfortable place, while still offering the best non-pay-to-win gameplay possible. We have many features to offer, including technology, magic, quests, custom mobs, and advancements.
             </span>
             <br><br>
-            <CopyIPButton>Copy IP</CopyIPButton>
+            <CopyIPButton />
             <Button link="https://discord.orchidmc.me">Join us on Discord</Button>
           </div>
         </div>
