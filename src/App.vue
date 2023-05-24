@@ -21,7 +21,7 @@ import Supporter from './components/Supporter.vue'
             </span>
             <br><br>
             <CopyIPButton />
-            <Button link="https://discord.orchidmc.me">Join us on Discord</Button>
+            <Button href="https://discord.orchidmc.me">Join us on Discord</Button>
           </div>
         </div>
       </div>
