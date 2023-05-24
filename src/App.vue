@@ -46,7 +46,7 @@ import Supporter from './components/Supporter.vue'
           <VotingSite icon="go" link="https://craftlist.org/orchid#vote">craftlist.org</VotingSite>
           <VotingSite icon="go" link="https://minecraft-mp.com/server/308552/vote/">minecraft-mp.com</VotingSite>
           <VotingSite icon="go" link="https://www.planetminecraft.com/server/orchid-towny/vote/">planetminecraft</VotingSite>
-          <VotingSite icon="go" link="https://minecraft-mp.com/server/308552/vote/">mclist.io</VotingSite>
+          <VotingSite icon="go" link="https://mclist.io/server/63514/vote">mclist.io</VotingSite>
         </div>
       </div>
       <div id="supporters" class="pageItemContainer">
