@@ -107,6 +107,10 @@ body {
   text-decoration: none;
 }
 
+.headerLink:hover {
+  color: var(--text-hover);
+}
+
 .smallAvatar {
   display: flex;
   align-items: center;
