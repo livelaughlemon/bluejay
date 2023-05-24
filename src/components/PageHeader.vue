@@ -23,6 +23,8 @@ export default {
         this.status = "The server is offline."
       } else if (response.code === "") {
         this.status = "The server is offline."
+      } else if (response.players.online === "") {
+        this.status = "The server is offline."
       } else {
         this.status = response.players.online + " player(s) online"
       }
