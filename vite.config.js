@@ -11,7 +11,8 @@ export default defineConfig({
       'vue'
     ],
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      'vue-router': fileURLToPath(new URL('../src/pages', import.meta.url)),
     }
   },
   server: {
