@@ -5,6 +5,6 @@ import SmallLogo from './SmallLogo.vue'
 <template>
   <div class="wordmark">
     <SmallLogo />
-    <span class="serverName">Orchid Towny</span>
+    <span class="serverName">Orchid</span>
   </div>
 </template>

@@ -16,7 +16,7 @@ export default defineConfig({
     }
   },
   server: {
-    port: 8000,
+    port: 7060,
   },
   preview: {
     port: 8000,
