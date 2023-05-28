@@ -52,6 +52,15 @@ export default {
     -webkit-backdrop-filter: blur(10px);
 
     display: inline-block;
+
+    border-radius: 0.75em;
+    border-width: 0px;
+    border-style: solid;
+    
+    border-top-width: 0.1em;
+    border-top-color: var(--button-border-top);
+    border-bottom-width: 0.1em;
+    border-bottom-color: var(--button-border-btm);
 }
 
 .btn.info {
