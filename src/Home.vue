@@ -39,14 +39,14 @@ import Supporter from './components/Supporter.vue'
       <div id="vote" class="pageItemContainer">
         <Heading>Vote for Orchid</Heading>
         <div class="pageItemContent">
-          <VotingSite icon="go" link="https://minecraft.buzz/vote/5661">minecraft.buzz</VotingSite>
-          <VotingSite icon="go" link="https://topminecraftservers.org/vote/29126">topminecraftservers.org</VotingSite>
-          <VotingSite icon="go" link="https://www.serverpact.com/vote-47152">serverpact.com</VotingSite>
-          <VotingSite icon="go" link="https://minecraftservers.org/vote/640046">minecraftservers.org</VotingSite>
-          <VotingSite icon="go" link="https://craftlist.org/orchid#vote">craftlist.org</VotingSite>
-          <VotingSite icon="go" link="https://minecraft-mp.com/server/308552/vote/">minecraft-mp.com</VotingSite>
-          <VotingSite icon="go" link="https://www.planetminecraft.com/server/orchid-towny/vote/">planetminecraft</VotingSite>
-          <VotingSite icon="go" link="https://mclist.io/server/63514/vote">mclist.io</VotingSite>
+          <VotingSite href="https://minecraft.buzz/vote/5661">minecraft.buzz</VotingSite>
+          <VotingSite href="https://topminecraftservers.org/vote/29126">topminecraftservers.org</VotingSite>
+          <VotingSite href="https://www.serverpact.com/vote-47152">serverpact.com</VotingSite>
+          <VotingSite href="https://minecraftservers.org/vote/640046">minecraftservers.org</VotingSite>
+          <VotingSite href="https://craftlist.org/orchid#vote">craftlist.org</VotingSite>
+          <VotingSite href="https://minecraft-mp.com/server/308552/vote/">minecraft-mp.com</VotingSite>
+          <VotingSite href="https://www.planetminecraft.com/server/orchid-towny/vote/">planetminecraft</VotingSite>
+          <VotingSite href="https://mclist.io/server/63514/vote">mclist.io</VotingSite>
         </div>
       </div>
       <div id="supporters" class="pageItemContainer">

@@ -2,7 +2,7 @@
 export default {
     props: {
         icon: String,
-        link: String,
+        href: String,
     }
 }
 </script>
@@ -10,9 +10,9 @@ export default {
 <template>
     <div class="pageItemContentItem votingLink">
         <div class="pageItemContentItemUpper noMargin">
-            <div :class="icon"></div>
+            <div class="go"></div>
             <div class="pageItemContentItemTitle noMargin">
-                <a :id="link" :href="link" target="_blank" rel="noopener noreferrer"
+                <a :id="href" :href="href" target="_blank" rel="noopener noreferrer"
                     @click="e => e.target.classList.toggle('strike')">
                     <slot></slot>
                 </a>
