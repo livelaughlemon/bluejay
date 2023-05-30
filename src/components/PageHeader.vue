@@ -40,6 +40,7 @@ export default {
       <div class="headerLinksArea">
         <a class="headerLink" href="https://discord.orchidmc.me">Discord</a>
         <a class="headerLink" href="#vote">Vote</a>
+        <a class="headerLink" href="https://s.orchidmc.me/apply">Apply</a>
         <a class="headerLink" href="https://store.orchidmc.me">Store</a>
       </div>
       <div class="statusArea">
