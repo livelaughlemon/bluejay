@@ -11,9 +11,6 @@ export default {
     created() {
         this.getButtonType()
         this.getWidth()
-        window.setInterval(() => {
-            this.getButtonType()
-        }, 1000)
     },
     methods: {
         async getWidth() {
@@ -42,8 +39,8 @@ export default {
     padding-left: 1.3em;
     padding-right: 1.3em;
 
-    background-color: var(--bg-secondary);
-    color: var(--text1);
+    background-color: var(--bg2);
+    color: var(--txt1);
 
     user-select: none;
     cursor: pointer;
@@ -61,8 +58,8 @@ export default {
 
     border-radius: 0.75em;
 
-    box-shadow: inset 0px -2px 3px -1px var(--button-shadow);
-    
+    box-shadow: inset 0px -2px 3px -1px var(--btn-shadow);
+
 }
 
 .btn:active {
@@ -74,7 +71,7 @@ export default {
 }
 
 .btn:hover.undefined {
-    background-color: var(--bg-secondary-alt);
+    background-color: var(--bg3);
 }
 
 .btn.info {
@@ -109,37 +106,11 @@ export default {
     background-color: var(--bg-danger2);
 }
 
-.btn.accent {
-    background-color: var(--accent1);
-}
-
-.btn:hover.accent {
-    background-color: var(--accent2);
-}
-
 .btn.dark {
     background-color: var(--bg-secondary-alt);
 }
 
 .btn:hover.dark {
     background-color: var(--bg-tertiary);
-}
-
-/* Service Types */
-
-.btn.discord {
-    background-color: #5865F2;
-}
-
-.btn:hover.discord {
-    background-color: #4650b9;
-}
-
-.btn.github {
-    background-color: #1f1f21;
-}
-
-.btn:hover.github {
-    background-color: rgb(27, 27, 29);
 }
 </style>

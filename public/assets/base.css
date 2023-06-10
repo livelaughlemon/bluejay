@@ -1,0 +1,182 @@
+/* Theming */
+:root {
+  color-scheme: dark;
+
+  --bg0: #514e5e;
+  --bg1: #242329;
+  --bg2: #1b1a1f;
+  --bg3: #0c0b0e;
+
+  --bg0-50: #514e5e50;
+  --bg1-50: #24232950;
+  --bg2-50: #1b1a1f50;
+  --bg3-50: #0c0b0e50;
+
+  --txt1: #fff;
+  --txt2: #d3d4d4;
+  --txt3: #a8afaf;
+
+  --accent1: #da70d6;
+  --accent1-50: #da70d650;
+
+  --bg-danger1: #ff5757;
+  --bg-warning1: #f89232;
+  --bg-success1: #49a749;
+  --bg-info1: #9d56ee;
+
+  --bg-danger2: #b63f3f;
+  --bg-warning2: #b46924;
+  --bg-success2: #306d30;
+  --bg-info2: #7642b2;
+
+  --btn-border: #00000025;
+  --btn-shadow: #00000055;
+
+  --font1: "Source Sans Pro", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --font2: "Commissioner", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: var(--bg1);
+  color: var(--txt1);
+  margin: 0px;
+}
+
+/* use for all stuff w/ the effect */
+.btn:focus-within,
+.ipt:focus-within,
+.hdrlk:focus-within {
+  transition: 0s;
+  outline: 4px solid;
+  outline-color: var(--accent1-50);
+}
+
+/* Commissioner */
+
+@font-face {
+  font-family: "Commissioner";
+  font-weight: 900;
+  src: url('./Commissioner/static/Commissioner-Black.ttf');
+}
+
+@font-face {
+  font-family: "Commissioner";
+  font-weight: 800;
+  src: url('./Commissioner/static/Commissioner-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: "Commissioner";
+  font-weight: 700;
+  src: url('./Commissioner/static/Commissioner-Bold.ttf');
+}
+
+@font-face {
+  font-family: "Commissioner";
+  font-weight: 600;
+  src: url('./Commissioner/static/Commissioner-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: "Commissioner";
+  font-weight: 500;
+  src: url('./Commissioner/static/Commissioner-Medium.ttf');
+}
+
+@font-face {
+  font-family: "Commissioner";
+  font-weight: 400;
+  src: url('./Commissioner/static/Commissioner-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Commissioner";
+  font-weight: 300;
+  src: url('./Commissioner/static/Commissioner-Light.ttf');
+}
+
+@font-face {
+  font-family: "Commissioner";
+  font-weight: 200;
+  src: url('./Commissioner/static/Commissioner-ExtraLight.ttf');
+}
+
+/* Source Sans Pro */
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 900;
+  src: url('./SourceSansPro/SourceSansPro-Black.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 900;
+  font-style: italic;
+  src: url('./SourceSansPro/SourceSansPro-BlackItalic.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  src: url('./SourceSansPro/SourceSansPro-Bold.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-style: italic;
+  src: url('./SourceSansPro/SourceSansPro-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  src: url('./SourceSansPro/SourceSansPro-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-style: italic;
+  src: url('./SourceSansPro/SourceSansPro-SemiBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  src: url('./SourceSansPro/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-style: italic;
+  src: url('./SourceSansPro/SourceSansPro-Italic.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 300;
+  src: url('./SourceSansPro/SourceSansPro-Light.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 300;
+  font-style: italic;
+  src: url('./SourceSansPro/SourceSansPro-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 200;
+  src: url('./SourceSansPro/SourceSansPro-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 200;
+  font-style: italic;
+  src: url('./SourceSansPro/SourceSansPro-ExtraLightItalic.ttf');
+}
