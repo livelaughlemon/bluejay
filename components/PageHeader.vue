@@ -8,7 +8,7 @@ export default {
     status: "Loading server status...",
   }),
 
-  created() {
+  mounted() {
     this.getStatus()
     this.interval = setInterval(() => this.getStatus(), 2000);
   },
