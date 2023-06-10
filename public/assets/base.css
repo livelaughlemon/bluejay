@@ -18,12 +18,19 @@
 
   --accent1: #da70d6;
   --accent1-50: #da70d650;
-  --bg-danger: #ff5757;
-  --bg-warning: #f89232;
-  --bg-success: #49a749;
-  --bg-info: #9d56ee;
-  --button-border-top: #ffffff25;
-  --button-border-btm: #00000035;
+
+  --bg-danger1: #ff5757;
+  --bg-warning1: #f89232;
+  --bg-success1: #49a749;
+  --bg-info1: #9d56ee;
+
+  --bg-danger2: #b63f3f;
+  --bg-warning2: #b46924;
+  --bg-success2: #306d30;
+  --bg-info2: #7642b2;
+
+  --btn-border: #00000025;
+  --btn-shadow: #00000055;
 
   --font1: "Source Sans Pro", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   --font2: "Commissioner", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

@@ -1,3 +1,3 @@
 npm install
-npm i vite --save
-npm run production
+npm run build
+npm run preview

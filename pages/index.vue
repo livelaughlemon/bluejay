@@ -1,12 +1,12 @@
 <script setup>
-import PageHeader from './components/PageHeader.vue'
-import PageFooter from './components/PageFooter.vue'
-import CopyIPButton from './components/CopyIPButton.vue'
-import Button from './components/Button.vue'
-import Heading from './components/Heading.vue'
-import Card from './components/Card.vue'
-import VotingSite from './components/VotingSite.vue'
-import Supporter from './components/Supporter.vue'
+import PageHeader from '../components/PageHeader.vue'
+import PageFooter from '../components/PageFooter.vue'
+import CopyIPButton from '../components/CopyIPButton.vue'
+import Button from '../components/Button.vue'
+import Heading from '../components/Heading.vue'
+import Card from '../components/Card.vue'
+import VotingSite from '../components/VotingSite.vue'
+import Supporter from '../components/Supporter.vue'
 </script>
 
 <template>
@@ -84,4 +84,5 @@ import Supporter from './components/Supporter.vue'
     </div>
     <PageFooter />
   </div>
+  <NuxtPage />
 </template>
