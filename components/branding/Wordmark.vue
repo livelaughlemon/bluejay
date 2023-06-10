@@ -2,8 +2,18 @@
 import SmallLogo from './SmallLogo.vue'
 </script>
 
+<script>
+export default {
+  methods: {
+    goHome() {
+      window.location = '/';
+    }
+  }
+}
+</script>
+
 <template>
-  <div class="wordmark">
+  <div class="wordmark" @click="goHome()">
     <SmallLogo />
     <span class="serverName">Orchid Towny</span>
   </div>
@@ -15,6 +25,7 @@ import SmallLogo from './SmallLogo.vue'
   align-items: center;
 
   flex-grow: 0;
+  cursor: pointer;
 }
 
 .serverName {

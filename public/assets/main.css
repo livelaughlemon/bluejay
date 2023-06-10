@@ -5,6 +5,15 @@ body {
   margin: 0px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0px;
+}
+
 .statusArea {
   display: flex;
   align-items: center;
@@ -46,6 +55,10 @@ body {
   padding-bottom: 25px;
   background-image: url("https://assets.orchidmc.me/images/orchidmcme/header2.png");
   background-position: bottom;
+}
+
+.pageHeader.noImage {
+  background-image: none!important;
 }
 
 .pageHeaderContent {
@@ -143,7 +156,7 @@ p {
 }
 
 .noMargin {
-  margin: 0px!important;
+  margin: 0px !important;
 }
 
 .votingLink {
