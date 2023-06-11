@@ -71,48 +71,56 @@ a.headerLink:focus-within,
   font-family: "Commissioner";
   font-weight: 900;
   src: url('./Commissioner/static/Commissioner-Black.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Commissioner";
   font-weight: 800;
   src: url('./Commissioner/static/Commissioner-ExtraBold.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Commissioner";
   font-weight: 700;
   src: url('./Commissioner/static/Commissioner-Bold.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Commissioner";
   font-weight: 600;
   src: url('./Commissioner/static/Commissioner-SemiBold.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Commissioner";
   font-weight: 500;
   src: url('./Commissioner/static/Commissioner-Medium.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Commissioner";
   font-weight: 400;
   src: url('./Commissioner/static/Commissioner-Regular.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Commissioner";
   font-weight: 300;
   src: url('./Commissioner/static/Commissioner-Light.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Commissioner";
   font-weight: 200;
   src: url('./Commissioner/static/Commissioner-ExtraLight.ttf');
+  font-display: swap;
 }
 
 /* Source Sans Pro */
@@ -121,6 +129,7 @@ a.headerLink:focus-within,
   font-family: "Source Sans Pro";
   font-weight: 900;
   src: url('./SourceSansPro/SourceSansPro-Black.ttf');
+  font-display: swap;
 }
 
 @font-face {
@@ -128,12 +137,14 @@ a.headerLink:focus-within,
   font-weight: 900;
   font-style: italic;
   src: url('./SourceSansPro/SourceSansPro-BlackItalic.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Source Sans Pro";
   font-weight: 700;
   src: url('./SourceSansPro/SourceSansPro-Bold.ttf');
+  font-display: swap;
 }
 
 @font-face {
@@ -141,12 +152,14 @@ a.headerLink:focus-within,
   font-weight: 700;
   font-style: italic;
   src: url('./SourceSansPro/SourceSansPro-BoldItalic.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Source Sans Pro";
   font-weight: 600;
   src: url('./SourceSansPro/SourceSansPro-SemiBold.ttf');
+  font-display: swap;
 }
 
 @font-face {
@@ -154,12 +167,14 @@ a.headerLink:focus-within,
   font-weight: 600;
   font-style: italic;
   src: url('./SourceSansPro/SourceSansPro-SemiBoldItalic.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Source Sans Pro";
   font-weight: 400;
   src: url('./SourceSansPro/SourceSansPro-Regular.ttf');
+  font-display: swap;
 }
 
 @font-face {
@@ -167,12 +182,14 @@ a.headerLink:focus-within,
   font-weight: 400;
   font-style: italic;
   src: url('./SourceSansPro/SourceSansPro-Italic.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Source Sans Pro";
   font-weight: 300;
   src: url('./SourceSansPro/SourceSansPro-Light.ttf');
+  font-display: swap;
 }
 
 @font-face {
@@ -180,12 +197,14 @@ a.headerLink:focus-within,
   font-weight: 300;
   font-style: italic;
   src: url('./SourceSansPro/SourceSansPro-LightItalic.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Source Sans Pro";
   font-weight: 200;
   src: url('./SourceSansPro/SourceSansPro-ExtraLight.ttf');
+  font-display: swap;
 }
 
 @font-face {
@@ -193,4 +212,5 @@ a.headerLink:focus-within,
   font-weight: 200;
   font-style: italic;
   src: url('./SourceSansPro/SourceSansPro-ExtraLightItalic.ttf');
+  font-display: swap;
 }
