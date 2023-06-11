@@ -4,7 +4,7 @@ export default {
         name: String,
     },
     data: () => ({
-        url: "https://mc-heads.net/avatar/",
+        url: "https://mc-heads.net/head/",
     }),
 
     created() {
@@ -13,7 +13,7 @@ export default {
 
     methods: {
         async getHead() {
-            this.url = "https://mc-heads.net/avatar/" + this.name
+            this.url = "https://mc-heads.net/head/" + this.name
         }
     }
 }
