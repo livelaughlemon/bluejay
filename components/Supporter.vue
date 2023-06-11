@@ -7,12 +7,15 @@ export default {
         url: "https://mc-heads.net/head/",
     }),
 
-    created() {
+    mounted() {
         this.getHead()
     },
 
     methods: {
         async getHead() {
+            if (this.name === "undefined") {
+                this.name = "MHF_Steve"
+            }
             this.url = "https://mc-heads.net/head/" + this.name
         }
     }
