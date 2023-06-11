@@ -29,7 +29,7 @@ export default {
   background-size: cover;
   display: inline-block !important;
   border-radius: 7px;
-  background-image: url(https://assets.orchidmc.me/images/orchidmcme/go.webp);
+  background-image: url('/assets/go.webp');
 }
 
 .votingLink {

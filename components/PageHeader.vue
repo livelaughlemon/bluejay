@@ -107,7 +107,7 @@ export default {
 .pageHeader {
   padding-top: 75px;
   padding-bottom: 25px;
-  background-image: url("https://assets.orchidmc.me/images/orchidmcme/header2.png");
+  background-image: url("/assets/header.webp");
   background-position: bottom;
 }
 

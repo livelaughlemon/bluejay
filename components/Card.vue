@@ -30,7 +30,7 @@ export default {
   background-size: cover;
   display: inline-block !important;
   border-radius: 7px;
-  background-image: url(https://assets.orchidmc.me/images/orchidmcme/sf.webp);
+  background-image: url('/assets/sf.webp');
 }
 
 .nptw {
@@ -40,7 +40,7 @@ export default {
   background-size: cover;
   display: inline-block !important;
   border-radius: 7px;
-  background-image: url(https://assets.orchidmc.me/images/orchidmcme/nptw.webp);
+  background-image: url('/assets/nptw.webp');
 }
 
 .ca {
@@ -50,7 +50,7 @@ export default {
   background-size: cover;
   display: inline-block !important;
   border-radius: 7px;
-  background-image: url(https://assets.orchidmc.me/images/orchidmcme/ca.webp);
+  background-image: url('/assets/ca.webp');
 }
 
 .ty {
@@ -60,7 +60,7 @@ export default {
   background-size: cover;
   display: inline-block !important;
   border-radius: 7px;
-  background-image: url(https://assets.orchidmc.me/images/orchidmcme/ty.webp);
+  background-image: url('/assets/ty.webp');
 }
 
 .go {
@@ -70,6 +70,6 @@ export default {
   background-size: cover;
   display: inline-block !important;
   border-radius: 7px;
-  background-image: url(https://assets.orchidmc.me/images/orchidmcme/go.webp);
+  background-image: url('/assets/go.webp');
 }
 </style>
