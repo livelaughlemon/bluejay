@@ -1,6 +1,6 @@
 <template>
   <div class="smallLogo">
-    <nuxt-img alt="Orchid Logo" format="webp" class="smallLogoImage" src="https://assets.orchidmc.me/logos/circle.png" />
+    <nuxt-img alt="Orchid Logo" format="webp" class="smallLogoImage" src="/assets/circleLogo.png" />
   </div>
 </template>
 
