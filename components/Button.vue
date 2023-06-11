@@ -70,6 +70,34 @@ export default {
     margin-left: 0px !important;
 }
 
+.nobottom {
+    margin-bottom: 0px !important;
+}
+
+.btn.sparkles::before {
+    content: url('/assets/ButtonSparklesBefore.svg');
+    left: -14px;
+    top: -10px;
+    position: absolute;
+    z-index: 2;
+}
+
+.btn.sparkles::after {
+    content: url('/assets/ButtonSparklesAfter.svg');
+    right: -20px;
+    top: -10px;
+    position: absolute;
+    z-index: 2;
+}
+
+.btn.translucent {
+    background-color: #ffffff20;
+}
+
+.btn:hover.translucent {
+    background-color: #ffffff35;
+}
+
 .btn:hover.undefined {
     background-color: var(--bg3);
 }
