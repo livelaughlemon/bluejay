@@ -25,7 +25,7 @@ export default {
 <template>
     <div class="supporterContainer">
         <div class="supporterContent">
-            <nuxt-img format="webp" class="supporterImage" :src="url" />
+            <nuxt-img :alt="name+`'s head`" format="webp" class="supporterImage" :src="url" />
             <span class="supporterName">{{ name }}</span>
         </div>
     </div>

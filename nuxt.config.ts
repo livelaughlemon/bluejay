@@ -5,8 +5,13 @@ export default defineNuxtConfig({
     head: {
       title: 'Orchid Towny',
       meta: [
-        { name: "Orchid Towny", content: "play.orchidmc.me" }
+        { charset: 'utf-8' },
+        { name: "Orchid Towny" },
+        { hid: 'description', name: 'description', content: 'We’re a community built on the hope to make Minecraft a more accepting and comfortable place.' }
       ],
+      htmlAttrs: {
+        lang: 'en'
+      },
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
     }
