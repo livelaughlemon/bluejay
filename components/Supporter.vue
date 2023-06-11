@@ -14,9 +14,9 @@ export default {
     methods: {
         async getHead() {
             if (this.name === "undefined") {
-                this.name = "MHF_Steve"
+                this.name = "MHF_Steve/50"
             }
-            this.url = "https://mc-heads.net/head/" + this.name
+            this.url = "https://mc-heads.net/head/" + this.name + "/50"
         }
     }
 }
