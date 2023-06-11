@@ -20,3 +20,23 @@ export default {
         </div>
     </div>
 </template>
+
+<style>
+.go {
+  height: 36px;
+  width: 36px;
+  margin-right: 15px;
+  background-size: cover;
+  display: inline-block !important;
+  border-radius: 7px;
+  background-image: url(https://assets.orchidmc.me/images/orchidmcme/go.webp);
+}
+
+.votingLink {
+  cursor: pointer;
+}
+
+.strike {
+  text-decoration-line: line-through;
+}
+</style>

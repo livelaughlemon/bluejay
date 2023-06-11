@@ -30,3 +30,32 @@ export default {
         </div>
     </div>
 </template>
+
+<style>
+.supporterImage {
+  height: 50px;
+  width: 50px;
+  margin: 7px;
+  display: inline;
+}
+
+.supporterContainer {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.supporterContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 130px;
+}
+
+.supporterName {
+  color: var(--txt2);
+  font-family: var(--font1);
+  font-weight: 400;
+  font-size: 15px;
+}
+</style>

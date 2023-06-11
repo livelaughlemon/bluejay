@@ -49,3 +49,106 @@ export default {
     </div>
   </div>
 </template>
+
+<style>
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  background-color: var(--bg1-50);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.headerContent {
+  width: 100%;
+  max-width: 1024px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  display: flex;
+  align-items: center;
+
+  text-shadow: 0px 0px 20px #000000;
+}
+
+.headerLinksArea {
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-grow: 5;
+}
+
+.headerLink {
+  margin-left: 5px;
+  margin-right: 5px;
+
+  color: var(--txt1);
+  font-family: var(--font1);
+  font-weight: 400;
+  font-size: 16px;
+
+  border-radius: 5px;
+
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+.headerLink:hover {
+  color: var(--txt3);
+  transition: 0.1s;
+}
+
+.pageHeader {
+  padding-top: 75px;
+  padding-bottom: 25px;
+  background-image: url("https://assets.orchidmc.me/images/orchidmcme/header2.png");
+  background-position: bottom;
+}
+
+.pageHeader.noImage {
+  background-image: none !important;
+}
+
+.pageHeaderContent {
+  text-align: left;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.pageHeaderItem {
+  color: var(--txt1);
+  font-family: var(--font1);
+  font-weight: 400;
+  font-size: 16px;
+  padding: 60px;
+  max-width: 500px;
+}
+
+.pageHeaderItemText {
+  line-height: 1.5;
+  text-shadow: 0px 0px 20px #000000;
+}
+
+.pageHeaderItemContainer {
+  display: flex;
+  align-items: center;
+}
+
+.statusArea {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.status {
+  color: var(--txt1);
+  font-family: var(--font1);
+  font-size: 16px;
+}
+</style>
