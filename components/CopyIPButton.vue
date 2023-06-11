@@ -2,7 +2,7 @@
 export default {
   data: () => ({
     text: "Copy IP",
-    buttonType: "btn",
+    buttonType: "btn ",
   }),
   methods: {
     async changeButtonText() {

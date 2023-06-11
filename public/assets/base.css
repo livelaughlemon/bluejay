@@ -42,10 +42,24 @@ body {
   margin: 0px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0px;
+}
+
+
+
 /* use for all stuff w/ the effect */
 .btn:focus-within,
 .ipt:focus-within,
-.hdrlk:focus-within {
+a.headerLink:focus-within,
+.votingLinkInner:focus-within,
+.ossLink:focus-within,
+.wordmark:focus-within {
   transition: 0s;
   outline: 4px solid;
   outline-color: var(--accent1-50);

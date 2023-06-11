@@ -12,7 +12,7 @@ export default {
         <div class="pageItemContentItemUpper noMargin">
             <div class="go"></div>
             <div class="pageItemContentItemTitle noMargin">
-                <a :id="href" :href="href" target="_blank" rel="noopener noreferrer"
+                <a :id="href" class="votingLinkInner" :href="href" target="_blank" rel="noopener noreferrer"
                     @click="e => e.target.classList.toggle('strike')">
                     <slot></slot>
                 </a>
