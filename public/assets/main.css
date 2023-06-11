@@ -36,9 +36,210 @@
 
 /* 
 
+    Universal Components
+
+*/
+
+/* Button */
+.btn {
+  margin: 6px;
+
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+
+  background-color: var(--bg2);
+  color: var(--txt1);
+
+  user-select: none;
+  cursor: pointer;
+  transition: .3s;
+
+  font-family: var(--font1);
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  display: inline-block;
+
+  border-radius: 0.75em;
+
+  box-shadow: inset 0px -2px 3px -1px var(--btn-shadow);
+
+}
+
+.btn:active {
+  transform: scale(90%);
+}
+
+.noleft {
+  margin-left: 0px !important;
+}
+
+.nobottom {
+  margin-bottom: 0px !important;
+}
+
+.btn.sparkles::before {
+  content: url('/assets/ButtonSparklesBefore.svg');
+  left: -14px;
+  top: -10px;
+  position: absolute;
+  z-index: 2;
+}
+
+.btn.sparkles::after {
+  content: url('/assets/ButtonSparklesAfter.svg');
+  right: -20px;
+  top: -10px;
+  position: absolute;
+  z-index: 2;
+}
+
+.btn.translucent {
+  background-color: #ffffff20;
+}
+
+.btn:hover.translucent {
+  background-color: #ffffff35;
+}
+
+.btn:hover.undefined {
+  background-color: var(--bg3);
+}
+
+.btn.info {
+  background-color: var(--bg-info1);
+}
+
+.btn:hover.info {
+  background-color: var(--bg-info2);
+}
+
+.btn.success {
+  background-color: var(--bg-success1);
+}
+
+.btn:hover.success {
+  background-color: var(--bg-success2);
+}
+
+.btn.warning {
+  background-color: var(--bg-warning1);
+}
+
+.btn:hover.warning {
+  background-color: var(--bg-warning2);
+}
+
+.btn.danger {
+  background-color: var(--bg-danger1);
+}
+
+.btn:hover.danger {
+  background-color: var(--bg-danger2);
+}
+
+.btn.dark {
+  background-color: var(--bg-secondary-alt);
+}
+
+.btn:hover.dark {
+  background-color: var(--bg-tertiary);
+}
+
+/* 
+
     Header Area
 
 */
+
+/* Branding */
+.wordmark {
+  display: flex;
+  align-items: center;
+
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.serverName {
+  color: var(--txt1);
+  font-family: var(--font2);
+  font-size: 20px;
+  font-weight: 700;
+
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.smallLogo {
+  display: flex;
+  align-items: center;
+}
+
+.smallLogoImage {
+  height: 35px;
+  width: 35px;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  background-color: var(--bg1-50);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.headerContent {
+  width: 100%;
+  max-width: 1024px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  display: flex;
+  align-items: center;
+
+  text-shadow: 0px 0px 20px #000000;
+}
+
+.headerLinksArea {
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-grow: 5;
+}
+
+.headerLink {
+  margin-left: 5px;
+  margin-right: 5px;
+
+  color: var(--txt1);
+  font-family: var(--font1);
+  font-weight: 400;
+  font-size: 16px;
+
+  border-radius: 5px;
+
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+.headerLink:hover {
+  color: var(--txt3);
+  transition: 0.1s;
+}
 
 /* Status Text */
 .statusArea {
@@ -135,7 +336,7 @@ h1 {
   margin: 0px !important;
 }
 
-/* Page Item9 */
+/* Page Item */
 .pageItemContent {
   align-items: flex-start;
   display: flex;
@@ -176,6 +377,57 @@ h1 {
 .pageItemContentSupporters {
   padding-top: 30px;
   margin-bottom: 30px;
+}
+
+/* Card */
+.sf {
+  height: 36px;
+  width: 36px;
+  margin-right: 15px;
+  background-size: cover;
+  display: inline-block !important;
+  border-radius: 7px;
+  background-image: url(https://assets.orchidmc.me/images/orchidmcme/sf.webp);
+}
+
+.nptw {
+  height: 36px;
+  width: 36px;
+  margin-right: 15px;
+  background-size: cover;
+  display: inline-block !important;
+  border-radius: 7px;
+  background-image: url(https://assets.orchidmc.me/images/orchidmcme/nptw.webp);
+}
+
+.ca {
+  height: 36px;
+  width: 36px;
+  margin-right: 15px;
+  background-size: cover;
+  display: inline-block !important;
+  border-radius: 7px;
+  background-image: url(https://assets.orchidmc.me/images/orchidmcme/ca.webp);
+}
+
+.ty {
+  height: 36px;
+  width: 36px;
+  margin-right: 15px;
+  background-size: cover;
+  display: inline-block !important;
+  border-radius: 7px;
+  background-image: url(https://assets.orchidmc.me/images/orchidmcme/ty.webp);
+}
+
+.go {
+  height: 36px;
+  width: 36px;
+  margin-right: 15px;
+  background-size: cover;
+  display: inline-block !important;
+  border-radius: 7px;
+  background-image: url(https://assets.orchidmc.me/images/orchidmcme/go.webp);
 }
 
 /* Voting Links */
@@ -241,4 +493,35 @@ h1 {
 .ossLink {
   color: var(--accent1);
   text-decoration: underline !important;
+  border-radius: 5px;
+}
+
+.footer {
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footerBody {
+  font-family: var(--font1);
+  color: var(--txt1);
+  font-size: 16px;
+  font-variation-settings: "wght" 500;
+
+  text-align: center;
+  margin: auto;
+}
+
+.footerContent {
+  width: 100%;
+  max-width: 1024px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  display: flex;
+  align-items: center;
 }
