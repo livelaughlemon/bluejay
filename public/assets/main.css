@@ -217,7 +217,7 @@ h1 {
 
 .supportBox {
   margin-top: 30px;
-  background-image: linear-gradient(31deg, #8c70da60, #29816e60);
+  background-image: linear-gradient(31deg, #8c70da45, #29816e45);
   border-radius: 20px;
   box-shadow: inset 0px -2px 3px -1px var(--btn-shadow);
 }
