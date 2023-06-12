@@ -12,13 +12,12 @@ export default {
   }),
 
   mounted() {
-    this.getTownInfo()
-    this.interval = setInterval(() => this.getTownInfo(), 10000);
+    this.getTownList()
   },
 
   methods: {
-        async getTownInfo() {
-            const townyapi = `https://towny.orchidmc.me/towns`
+        async getTownList() {
+            const townyapi = `https://play.orchidmc.me:25570/towns`
             var response = await (await fetch(townyapi)).json()
             if (response.response === "200") {
                 // set stuff -- this is insane i know

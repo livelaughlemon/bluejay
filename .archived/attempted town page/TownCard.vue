@@ -16,12 +16,12 @@ export default {
 
     mounted() {
         this.getTownInfo()
-        this.interval = setInterval(() => this.getTownInfo(), 10000);
+        this.interval = setInterval(() => this.getTownInfo(), 20000);
     },
 
     methods: {
         async getTownInfo() {
-            const townyapi = `https://towny.orchidmc.me/town/` + this.name
+            const townyapi = `https://play.orchidmc.me:25570/town/` + this.name
             var response = await (await fetch(townyapi)).json()
             if (response.response === "200") {
                 this.display = true
