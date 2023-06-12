@@ -13,10 +13,10 @@ export default {
 </script>
 
 <template>
-  <div class="wordmark" @click="goHome()">
+  <NuxtLink class="wordmark" to="/">
     <SmallLogo />
     <span class="serverName">Orchid Towny</span>
-  </div>
+  </NuxtLink>
 </template>
 
 <style>

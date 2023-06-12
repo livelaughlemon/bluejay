@@ -7,6 +7,7 @@ import Heading from '../components/Heading.vue'
 import Card from '../components/Card.vue'
 import VotingSite from '../components/VotingSite.vue'
 import Supporter from '../components/Supporter.vue'
+import SupportBox from '../components/SupportBox.vue'
 </script>
 
 <template>
@@ -85,16 +86,7 @@ import Supporter from '../components/Supporter.vue'
           <Supporter name="Breetherusski__" />
           <Supporter name="Shxwk" />
           <Supporter name="Matrixes420" />
-
-          <div class="supportBox">
-            <div class="supportBoxInner">
-              <div class="supportBoxContent">
-                <span>Help us pay for the server bills, maintain the server, and develop custom plugins.</span><br>
-                <Button type="sparkles translucent nobottom" href="https://store.orchidmc.me" style="margin-top: 20px;">Check out the Store</Button>
-              </div>
-            </div>
-          </div>
-
+          <SupportBox />
         </div>
       </div>
     </div>
