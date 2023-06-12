@@ -43,7 +43,7 @@ export default {
     <div class="pageItemContentItem" v-if="display">
         <div class="pageItemContentItemUpper">
             <div class="pageItemContentItemTitle">
-                <p>{{ town.name }}</p>
+                <p style="text-transform: capitalize;">{{ town.name }}</p>
             </div>
         </div>
         <p class="pageItemContentItemBody">
