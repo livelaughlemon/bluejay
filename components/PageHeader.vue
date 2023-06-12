@@ -38,10 +38,10 @@ export default {
     <div class="headerContent">
       <Wordmark />
       <div class="headerLinksArea">
-        <a class="headerLink" href="https://discord.orchidmc.me">Discord</a>
-        <a class="headerLink" href="/#vote">Vote</a>
-        <a class="headerLink" href="https://s.orchidmc.me/apply">Apply</a>
-        <NuxtLink class="headerLink" to="/towns">Towns</NuxtLink>
+        <NuxtLink class="headerLink" to="https://discord.orchidmc.me">Discord</NuxtLink>
+        <NuxtLink class="headerLink" to="/#vote">Vote</NuxtLink>
+        <NuxtLink class="headerLink" to="/apply">Apply</NuxtLink>
+        <NuxtLink class="headerLink" to="https://store.orchidmc.me">Store</NuxtLink>
       </div>
       <div class="statusArea">
         <span class="status">{{ status }}</span>
