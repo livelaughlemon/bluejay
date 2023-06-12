@@ -25,7 +25,7 @@ export default {
 </script>
 
 <template>
-    <a :class="buttonclasses" :style="widthstyle" :href="href">
+    <a :class="buttonclasses" :style="widthstyle" :href="href" target="_blank">
         <slot></slot>
     </a>
 </template>

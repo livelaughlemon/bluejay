@@ -58,7 +58,7 @@ p {
 .ipt:focus-within,
 a.headerLink:focus-within,
 .votingLinkInner:focus-within,
-.ossLink:focus-within,
+.footerLink:focus-within,
 .wordmark:focus-within {
   transition: 0s;
   outline: 4px solid;
