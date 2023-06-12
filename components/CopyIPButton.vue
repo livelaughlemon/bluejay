@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-  <a :class="buttonType" id="copyIP" @click="changeButtonText()" onclick="navigator.clipboard.writeText('play.orchidmc.me');" tabindex="0">
+  <a :class="buttonType" id="copyIP" href="#" @click="changeButtonText()" onclick="navigator.clipboard.writeText('play.orchidmc.me');" tabindex="0">
     {{ text }}
   </a>
 </template>
