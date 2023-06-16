@@ -24,6 +24,8 @@ export default {
   display: flex;
   align-items: center;
 
+  border-radius: 5px;
+
   flex-grow: 0;
   cursor: pointer;
 }

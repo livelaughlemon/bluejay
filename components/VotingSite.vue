@@ -34,6 +34,8 @@ export default {
 
 .votingLink {
   cursor: pointer;
+
+  border-radius: 5px;
 }
 
 .strike {
