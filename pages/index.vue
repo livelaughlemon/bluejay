@@ -87,6 +87,7 @@ import SupportBox from '../components/SupportBox.vue'
           <Supporter name="Shxwk" />
           <Supporter name="Matrixes420" />
           <Supporter name="RevyRabbit" />
+          <Supporter name="SunDaNub" />
           <SupportBox />
         </div>
       </div>
