@@ -15,7 +15,7 @@ export default {
 
   methods: {
     async getStatus() {
-      const statusapi = `https://api.orchidmc.me/v2/minecraft/status/play.orchidmc.me/25565`
+      const statusapi = `https://api.mcstatus.io/v2/status/java/play.orchidmc.me`
       var response = await (await fetch(statusapi)).json()
       if (response.code === "ECONNREFUSED") {
         this.status = "The server is offline."
