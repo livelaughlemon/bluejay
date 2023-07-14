@@ -1,44 +1,74 @@
 <template>
   <div class="footer">
     <div class="footerContent">
-      <span class="footerBody">
+      <div class="footerTop">
         © 2022-2023 Orchid Development • This website is <a class="footerLink"
           href="https://github.com/orchidtowny/bluejay" target="_blank" rel="noopener noreferrer">open source</a> on
         Github. • play.orchidmc.me
-      </span>
+      </div>
+      <div class="footerBottom">
+        <a class="socialLink" href="https://discord.orchidmc.me">
+          <img class="socialIcon" height="12px" width="auto" src="/assets/icon-discord.svg" />
+          Discord
+        </a>
+        <a class="socialLink" href="https://www.instagram.com/orchidtowny">
+          <img class="socialIcon" height="12px" width="auto" src="/assets/icon-instagram.svg" />
+          Instagram
+        </a>
+        <a class="socialLink" href="https://www.youtube.com/@orchid-towny">
+          <img class="socialIcon" height="12px" width="auto" src="/assets/icon-youtube.svg" />
+          YouTube
+        </a>
+        <a class="socialLink" href="https://tech.lgbt/@orchid">
+          <img class="socialIcon" height="12px" width="auto" src="/assets/icon-mastodon.svg" />
+          Mastodon
+        </a>
+      </div>
     </div>
   </div>
 </template>
 
 <style>
-.footer {
-  padding-bottom: 30px;
-  padding-top: 30px;
+.socialIcon {
+  margin-right: 6px;
+  margin-left: 12px;
+}
 
-  width: 100%;
+.socialLink,
+.footerBottom {
   display: flex;
+  align-items: center;
   justify-content: center;
+  border-radius: 5px;
+  flex-grow: 0;
+  cursor: pointer;
 }
 
-.footerBody {
-  font-family: var(--font1);
-  color: var(--txt1);
-  font-size: 16px;
-  font-variation-settings: "wght" 500;
+.socialLink {
+  font-weight: 600;
+}
 
+.footerTop {
+  margin-bottom: 10px;
   text-align: center;
-  margin: auto;
+  font-family: var(--font1);
 }
 
-.footerContent {
-  width: 100%;
+.footerBottom {
+  margin-top: 10px;
+  text-align: center;
+  font-family: var(--font1);
+}
+
+.footer {
   max-width: 1024px;
-  padding: 10px;
+  margin: 40px;
   padding-left: 20px;
   padding-right: 20px;
 
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .footerLink {
