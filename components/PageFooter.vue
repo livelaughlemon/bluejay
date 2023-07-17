@@ -62,7 +62,9 @@
 
 .footer {
   max-width: 1024px;
-  margin: 40px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
 
