@@ -7,7 +7,7 @@
         Github. &bull; play.orchidmc.me
       </div>
       <div class="footerBottom">
-        <a class="socialLink" href="https://discord.orchidmc.me">
+        <a class="socialLink slFirst" href="https://discord.orchidmc.me">
           <img class="socialIcon" height="12px" width="auto" src="/assets/icon-discord.svg" />
           Discord
         </a>
@@ -19,7 +19,7 @@
           <img class="socialIcon" height="12px" width="auto" src="/assets/icon-youtube.svg" />
           YouTube
         </a>
-        <a class="socialLink" href="https://tech.lgbt/@orchid">
+        <a class="socialLink" rel="me" href="https://tech.lgbt/@orchid">
           <img class="socialIcon" height="12px" width="auto" src="/assets/icon-mastodon.svg" />
           Mastodon
         </a>
@@ -29,6 +29,10 @@
 </template>
 
 <style>
+.slFirst {
+  margin-left: 0px;
+}
+
 .socialIcon {
   margin-right: 6px;
   margin-left: 12px;
