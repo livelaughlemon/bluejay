@@ -37,8 +37,8 @@ import SupportBox from '../components/SupportBox.vue'
             body="Here on Orchid we have a plugin called Slimefun, which is a plugin similar to a technology modpack for Spigot. We don’t just have the basics of Slimefun though, we have several addons to make your Slimefun adventure more challenging. Once you finish one thing, you can almost always find another with our Slimefun setup!" />
           <Card icon="ty" title="Towny"
             body="Using Towny, you can build the empire you've always wanted to. Start up towns and build with other players, and grow your own nation with the help of others. Attack your enemies in flag-based wars, or become the next ally to a great nation. It’s all your choice with Towny!" />
-          <Card icon="nptw" title="Not Pay-to-Win"
-            body="We’re tired of servers popping up left and right with “donate to unban” policies, lenient moderators, and weeks of work for $15. That’s why we’ve done as much as we can to not be that. All of our supporter ranks only offer things available in our survival ranks, excluding cosmetic perks like icons in chat." />
+          <Card icon="nptw" title="Even Ranks"
+            body="We try our best to avoid pay to win aspects on Orchid, and that’s why all of our supporter ranks only have perks that can be acheived in the survival ranks. Aside from different chat appearances, there aren’t huge advantages for supporters." />
           <Card icon="ca" title="Custom & Advanced"
             body="With our years of experience in this game, we’ve been able to craft a unique and custom experience, including some of our own plugins and unique ideas. Alongside that, the support we’ve received over the past few months has allowed us to further improve the server and deliver a lag-free experience and premium plugins that improves the lives of the staff and players." />
         </div>
