@@ -4,6 +4,10 @@ export default {
         icon: String,
         title: String,
         body: String,
+        btn_name: String,
+        btn_href: String,
+        btn2_name: String,
+        btn2_href: String,
     }
 }
 </script>
@@ -19,6 +23,11 @@ export default {
         <p class="pageItemContentItemBody">
             {{ body }}
         </p>
+        <div v-if="this.btn_name">
+          <br>
+          <Button type="noleft" :href="this.btn_href">{{ btn_name }}</Button>
+          <Button type="noleft" :href="this.btn2_href" v-if="this.btn2_name">{{ btn2_name }}</Button>
+        </div>
     </div>
 </template>
 
@@ -71,5 +80,15 @@ export default {
   display: inline-block !important;
   border-radius: 7px;
   background-image: url('/assets/go.webp');
+}
+
+.cb {
+  height: 36px;
+  width: 36px;
+  margin-right: 15px;
+  background-size: cover;
+  display: inline-block !important;
+  border-radius: 7px;
+  background-image: url('/assets/cb.webp');
 }
 </style>
