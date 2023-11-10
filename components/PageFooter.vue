@@ -10,15 +10,15 @@
         <a class="socialLink slFirst" href="https://discord.orchidmc.me">
           Discord
         </a>
-        &bull;
+        <span class="socialIcon">&bull;</span>
         <a class="socialLink" href="https://www.instagram.com/orchidtowny">
           Instagram
         </a>
-        &bull;
+        <span class="socialIcon">&bull;</span>
         <a class="socialLink" href="https://www.youtube.com/@orchid-towny">
           YouTube
         </a>
-        &bull;
+        <span class="socialIcon">&bull;</span>
         <a class="socialLink" rel="me" href="https://eepy.zone/@orchid">
           Fediverse
         </a>
@@ -33,8 +33,8 @@
 }
 
 .socialIcon {
-  margin-right: 6px;
-  margin-left: 12px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .socialLink,
