@@ -49,7 +49,7 @@ import SupportBox from '../components/SupportBox.vue'
           <VotingSite href="https://minecraft.buzz/vote/5661">minecraft.buzz</VotingSite>
           <VotingSite href="https://topminecraftservers.org/vote/29126">topminecraftservers.org</VotingSite>
           <VotingSite href="https://www.serverpact.com/vote-47152">serverpact.com</VotingSite>
-          <VotingSite href="https://minecraftservers.org/vote/640046">minecraftservers.org</VotingSite>
+          <VotingSite href="https://findmcserver.com/server/2EcTN5lgqw?vote=true">findmcserver.com</VotingSite>
           <VotingSite href="https://craftlist.org/orchid#vote">craftlist.org</VotingSite>
           <VotingSite href="https://minecraft-mp.com/server/308552/vote/">minecraft-mp.com</VotingSite>
           <VotingSite href="https://www.planetminecraft.com/server/orchid-towny/vote/">planetminecraft.com</VotingSite>
