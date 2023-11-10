@@ -8,20 +8,19 @@
       </div>
       <div class="footerBottom">
         <a class="socialLink slFirst" href="https://discord.orchidmc.me">
-          <img class="socialIcon" height="12px" width="auto" src="/assets/icon-discord.svg" />
           Discord
         </a>
+        &bull;
         <a class="socialLink" href="https://www.instagram.com/orchidtowny">
-          <img class="socialIcon" height="12px" width="auto" src="/assets/icon-instagram.svg" />
           Instagram
         </a>
+        &bull;
         <a class="socialLink" href="https://www.youtube.com/@orchid-towny">
-          <img class="socialIcon" height="12px" width="auto" src="/assets/icon-youtube.svg" />
           YouTube
         </a>
-        <a class="socialLink" rel="me" href="https://tech.lgbt/@orchid">
-          <img class="socialIcon" height="12px" width="auto" src="/assets/icon-mastodon.svg" />
-          Mastodon
+        &bull;
+        <a class="socialLink" rel="me" href="https://eepy.zone/@orchid">
+          Fediverse
         </a>
       </div>
     </div>
